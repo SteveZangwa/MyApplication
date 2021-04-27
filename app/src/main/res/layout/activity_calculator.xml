@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculatorActivity">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        app:backgroundTint="#0058e6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/text_calculations_header"
+        android:layout_width="284dp"
+        android:layout_height="44dp"
+        android:text="Average Mark"
+        android:textAlignment="center"
+        android:textColor="#000A67"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/text_maths"
+        android:layout_width="328dp"
+        android:layout_height="33dp"
+        android:text="Maths mark?"
+        android:textColor="#000A67"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <EditText
+        android:id="@+id/edittext_maths"
+        android:layout_width="337dp"
+        android:layout_height="32dp"
+        android:background="#E6E6E6"
+        android:ems="18"
+        android:inputType="numberSigned"
+        android:textColor="#FF000A67"
+        android:textColorHint="#253275"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:id="@+id/text_art"
+        android:layout_width="328dp"
+        android:layout_height="33dp"
+        android:text="Art mark?"
+        android:textColor="#000A67"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <EditText
+        android:id="@+id/edittext_art"
+        android:layout_width="337dp"
+        android:layout_height="32dp"
+        android:background="#E6E6E6"
+        android:ems="18"
+        android:inputType="numberSigned"
+        android:textColor="#FF000A67"
+        android:textColorHint="#253275"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <TextView
+        android:id="@+id/text_science"
+        android:layout_width="328dp"
+        android:layout_height="33dp"
+        android:text="Science mark?"
+        android:textColor="#000A67"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_science"
+        android:layout_width="337dp"
+        android:layout_height="32dp"
+        android:background="#E6E6E6"
+        android:ems="18"
+        android:inputType="numberSigned"
+        android:textColor="#FF000A67"
+        android:textColorHint="#253275"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546" />
+
+    <TextView
+        android:id="@+id/text_lo"
+        android:layout_width="328dp"
+        android:layout_height="33dp"
+        android:text="Life Orientation mark?"
+        android:textColor="#000A67"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <EditText
+        android:id="@+id/edittext_lo"
+        android:layout_width="337dp"
+        android:layout_height="32dp"
+        android:background="#E6E6E6"
+        android:ems="18"
+        android:inputType="numberSigned"
+        android:textColor="#FF000A67"
+        android:textColorHint="#253275"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="337dp"
+        android:layout_height="50dp"
+        android:text="Calculate"
+        app:backgroundTint="#0058e6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
+
+    <TextView
+        android:id="@+id/text_results"
+        android:layout_width="337dp"
+        android:layout_height="90dp"
+        android:background="#E6E6E6"
+        android:ems="28"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#0058e6"
+        android:textColorHint="#253275"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
